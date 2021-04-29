@@ -5,5 +5,22 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Down the rabbit-hole
+# I've Been Busy Thinking about...
 
+<p style="font-family: times, serif; font-size:16pt; font-style:italic"> R. </p>
+
+There are many, many, many wonderful places on the internet you can learn about R. Personally, I'm a big fan of [listening to someone talk me through an example](https://www.youtube.com/watch?v=SWxoJqTqo08) of what they're doing on YouTube. RStudio also has plenty of [cheatsheets](https://www.rstudio.com/resources/cheatsheets/) for all sorts of topics and packages. 
+
+So why this guide? Who is it for?
+
+The point of the guide is an introduction in how to ***think*** about R. It's much easier to communicate with someone when you know how they will interpret what you're saying. The same is true with robots. If you know how R thinks, you'll understand where the hiccups in your code are coming from much faster.
+
+This guide is designed for a specific audience: the learning on the job audience. You know enough to get by most of the time, but you constantly feel like you're playing catch up. 
+
+I come from an academic background. I had no formal training in R until the week-long short course a week before graduate school began. That course gave me the tools to survive the initial onslaught of statistical assignments requiring R, but I was left to discover and learn the plethora of R tools to aid in research on my own. Over the years I've come to a deeper understanding of R that I would have loved to have earlier in the process. This guide is an attempt to share that understanding and hopefully it will find you relatively early in your R journey.
+
+If you've taken a course on R, or are a computer scientist, this guide is not for you. If you are lightly familiar with programming or the concept of R, maybe you already know MATLAB or have made a few graphs with R, and need to know more for your projects, hopefully this guide will help.
+
+This guide is *not* meant to be used as a reference manual for specific commands. I will not be reviewing the calculator nature of R.
+
+This guide to meant to give you insight into how R thinks, so you can communicate with it more effectively. The goal is to help you understand just what the hell R is doing as well as how to effectively troubleshoot your code and Google your problems. 
