@@ -1,0 +1,57 @@
+# What are thoooose?
+
+## Objects!
+
+***EVERYTHING*** is an object in R!
+
+R is a object-orientated programming language. This refers to the way R uses memory. It stores your information as an object that can be called upon later.
+
+### Creating Objects
+
+As the user, you create and manipulate objects whenever you use R. Objects are created whenever you save an output, e.g., whenever you use either assignment symbol (= or <- ).
+
+Here are some objects:
+```{r}
+# A string:
+a <- "a"
+
+# A numeric:
+b = 2
+
+# A vector:
+c <- c(1,2,3)
+
+# A data frame:
+d = data.frame(x = 1, y = 1:10)
+
+```
+
+Even though a, b, c, and d are different "things", they are all objects to R. The symbols **<-** and **=** act as assignment symbols. They both achieve the same thing: they assign some output a name. Now you can refer to that name whenever you want that output.
+
+What is output exactly? Output is what will show up in your console after you type something there and hit enter. If you "a", the console will return "a". If you type 2, the console will return 2. So on and so forth. Assigning that output a name creates an object of that output. 
+
+Creating an object is the same as writing a paper, clicking "Save As..." and naming your paper. Now, every time you click on the name of your paper, your paper opens. If you don't "Save As...", your paper will be gone. When you type the name of your object into the R console, the output will appear. If you don't give the output a name, you'll have to create that object from scratch if you want to see it again.
+
+Let's use an object. From the code above, instead of typing "2" all the time, now you can just type *b*.
+```{r}
+
+c2 <- c(1,b,3)
+
+identical(c,c2)
+
+```
+
+In the example above, I created a new object called **c2** which looks just like the vector **c** except I replaced "2" with the object **b**. To our human brain, **c** and **c2** just *look* similar. To R's brain, they are *identical*. As far as R is concerned, **b** IS "2".
+
+This example may seem frivolous, but the underlying concepts are powerful. There are **b** important takeaways here:
+
+1. Everything is an object.
+2. Once you create an object, to R, the object IS what the output you saved to it.
+
+## Functions
+
+Beyond simply being object-orientated, R is a functional object-orientated language.
+
+I know what you're thinking. "Functional? I'm here because 9 times out of 10 R is *not* functional."
+
+In R's case, "functional" refers the creation and use of functions.

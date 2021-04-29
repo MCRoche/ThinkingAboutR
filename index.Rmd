@@ -5,9 +5,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# I've Been Busy Thinking about...
+# I've Been Busy Thinking About... {-}
 
-<p style="font-family: times, serif; font-size:16pt; font-style:italic"> R. </p>
+<p style="font-family: times, serif; font-size:20pt; font-style:italic"> R. </p>
 
 There are many, many, many wonderful places on the internet you can learn about R. Personally, I'm a big fan of [listening to someone talk me through an example](https://www.youtube.com/watch?v=SWxoJqTqo08) of what they're doing on YouTube. RStudio also has plenty of [cheatsheets](https://www.rstudio.com/resources/cheatsheets/) for all sorts of topics and packages. 
 
